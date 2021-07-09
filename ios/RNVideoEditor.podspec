@@ -22,8 +22,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "" }
 
-  s.source_files = 'RNVideoEditor/*.{h,m,swift}'
-  s.preserve_paths = 'RNVideoEditor/*.{h,m,swift}'
+  s.source_files = '*.{h,m,swift}'
+  s.preserve_paths = '*.{h,m,swift}'
   
   s.frameworks   = "Foundation", "AVFoundation", "SystemConfiguration", "Security", "UIKit", "LocalAuthentication"
 
